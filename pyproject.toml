@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dnaseq-genbit"
+version = "1.0.0"
+description = "Computationally operate on DNA and RNA sequences"
+readme = "README.md"
+authors = [{ name = "Akhilesh Balaji", email = "akhilesh.balaji.bangalore@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["dna", "rna", "sequence", "ribosome"]
+dependencies = [
+    "rich",
+]
+requires-python = ">=3.8"
