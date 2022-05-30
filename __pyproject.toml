@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "dnaseq-genbit"
-version = "1.0.0"
+version = "1.0.2"
 description = "Computationally operate on DNA and RNA sequences"
 readme = "README.md"
 authors = [{ name = "Akhilesh Balaji", email = "akhilesh.balaji.bangalore@gmail.com" }]
